@@ -1,0 +1,19 @@
+[build]
+  command = "npm run build"
+  publish = "/var/www/ghost/content"
+
+[[redirects]]
+  from = "/*"
+  to = "/{splat}"
+  status = 200
+
+[[redirects]]
+  from = "/ghost"
+  to = "/ghost/"
+  status = 301
+
+[[redirects]]
+  from = "/ghost/*"
+  to = "https://CodeBud.com/ghost/:splat"
+  status = 301
+

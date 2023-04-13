@@ -1,0 +1,26 @@
+{
+  "url": "http://localhost:2368/",
+  "server": {
+    "port": 2368,
+    "host": "127.0.0.1"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "/media/faizanasghar43/929e8658-4567-4c64-9f5c-dabf56bb6810/home/muhammad/Ghost-main/Ghost-Installation/content/data/ghost-local.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/media/faizanasghar43/929e8658-4567-4c64-9f5c-dabf56bb6810/home/muhammad/Ghost-main/Ghost-Installation/content"
+  }
+}
