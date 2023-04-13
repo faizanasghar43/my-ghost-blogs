@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "/var/www/ghost/content"
+  publish = "/media/faizanasghar43/929e8658-4567-4c64-9f5c-dabf56bb6810/home/muhammad/Ghost-main/Ghost-Installation/content"
 
 [[redirects]]
   from = "/*"
@@ -14,6 +14,6 @@
 
 [[redirects]]
   from = "/ghost/*"
-  to = "https://CodeBud.com/ghost/:splat"
+  to = "https://yourghostsite.com/ghost/:splat"
   status = 301
 
