@@ -1,0 +1,20 @@
+{
+  "name": "ghost-installation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ghost start",
+    "build": "ghost start && npm run generate",
+    "generate": "npx @tryghost/members@latest generate --zip-path content/data/members.zip",
+    "zip": "npx @tryghost/members@latest zip --dir content/data/members",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tryghost/members": "^4.1.2"
+  }
+}
+
